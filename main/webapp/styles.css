@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 23, 2021, 9:26:25 PM
+    Author     : samha
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #fcd303;
+}
+
+body, .quote-input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans_serif;
+    color: white;
+}
+
+.container {
+    background-color: #030ffc;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 700px;
+    max-width: 90%;
+}
+
+.timer {
+    position: absolute;
+    top: 10rem;
+    font-size: 3rem;
+    color: #030ffc;
+    font-weight: bold;
+}
+
+.title {
+    position: absolute;
+    top: 2rem;
+    font_size: 4;
+    color: #030ffc;
+    font-weight: bolder;
+}
+
+.quote-display {
+    margin-bottom: 1rem;
+}
+
+.quote-input {
+    background-color: transparent;
+    border: 2px solid #0009ad;
+    outline: none;
+    
+}
+.quote-input:focus {
+    border-color: black;
+}
